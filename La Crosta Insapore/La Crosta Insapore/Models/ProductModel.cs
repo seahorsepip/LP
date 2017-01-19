@@ -9,8 +9,8 @@ namespace La_Crosta_Insapore.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int PurchasePrice { get; set; }
-        public int SalePrice { get; set; }
+        public decimal? PurchasePrice { get; set; }
+        public decimal? SalePrice { get; set; }
         public ProductType Type { get; set; }
     }
 }
